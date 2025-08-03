@@ -100,6 +100,10 @@ function cleanDeck(): void {
   align-items: center;
 }
 
+.count button {
+  font-size: 0.8vw;
+}
+
 .card {
   font-weight: 300;
   height: 2vw;
