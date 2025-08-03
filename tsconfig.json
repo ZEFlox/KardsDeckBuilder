@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    
+  },
+  "include": [
+    "src/*.ts",
+    "src/utils/*.ts",
+    "src/components/*.vue",
+    "src/App.vue",
+    "src/types.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "*.js"
+  ],
+  "lib": [
+    "esnext",
+    "dom"
+  ]
+}
